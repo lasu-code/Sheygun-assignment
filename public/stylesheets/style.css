@@ -1,0 +1,45 @@
+body {
+	background-color: lightblue;
+	margin: 0px 0px 0px 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+#first-part-color{
+	background-color: lightblue;
+	height: 700px;
+	width: 50%;
+	float: left;
+}
+#second-part-color{
+	background-color: pink;
+	height: 700px;
+	width: 50%;
+	float: right;
+}
+#image-container{
+	transform: translate(200px, 50px);
+}
+#image{
+	height: 200px;
+	width: 200px;
+}
+#follow-button:hover{
+	background-color: red;
+	color: white;
+}
+#name-of-user{
+	font-size: 30px;
+	color: blue;
+}
+#follow-button{
+	margin-left: 30px;
+	padding: 10px;
+	background-color: blue;
+	border:1px solid white;
+	width: 150px;
+	color: white;
+	border-radius: 10px;
+}
